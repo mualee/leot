@@ -16,7 +16,7 @@ const Navbar = () => {
 	const navigationItems = [
 		{ href: "#home", label: "Home" },
 		{ href: "#about", label: "About" },
-		{ href: "#projects", label: "Projects" },
+		{ href: "#team", label: "Team" },
 		{ href: "#skills", label: "Skills" },
 		{ href: "#contact", label: "Contact" },
 	];
@@ -26,8 +26,8 @@ const Navbar = () => {
 			<div className="container mx-auto">
 				<nav className="justify-between hidden lg:flex">
 					<div className="flex items-center gap-2">
-						<img src="/logo.png" className="w-12 h-12 dark:invert" alt="logo" />
-						<span className="text-3xl font-bold">Mualee</span>
+						<img src="/fullLogo.png" className="w-12 h-12 dark:invert" alt="LEOT" />
+						<span className="text-3xl font-bold">LEOT</span>
 					</div>
 					<div className="flex items-center gap-6">
 						<div className="flex items-center">
@@ -60,11 +60,11 @@ const Navbar = () => {
 					<div className="flex items-center justify-between">
 						<div className="flex items-center gap-2">
 							<img
-								src="/logo.png"
+								src="/fullLogo.png"
 								className="w-12 h-12 dark:invert"
-								alt="logo"
+								alt="LEOT School Logo"
 							/>
-							<span className="text-xl font-bold">Mualee</span>
+							<span className="text-xl font-bold">LEOT</span>
 						</div>
 						<ModeToggle />
 					</div>

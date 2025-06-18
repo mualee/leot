@@ -14,7 +14,15 @@ import Navbar from "@/components/Navbar";
 import { Footer } from "@/components/footer";
 //home
 import  Home  from "@/components/home";
+//AboutPage
 
+import AboutPage from "@/components/aboutPage";
+// ContactPage
+import ContactPage from "@/components/ContactPage";
+//aboutOverview
+// import AboutOverview from "@/components/aboutOverview";
+// FeaturedPrograms
+import FeaturedPrograms from "@/components/featuredPrograms";
 
 // Magic Values
 import { useTodoStore } from "@/store/todo";
@@ -89,6 +97,10 @@ function IndexPage() {
 			<section className="pb-20 ">
 				<div className="flex flex-col items-center justify-center gap-12 overflow-hidden overflow-y-auto">
 					<Home />
+					{/* <AboutOverview /> */}
+					<AboutPage />
+					<FeaturedPrograms />
+					<ContactPage />
 				</div>
 			</section>
 			<Footer />
